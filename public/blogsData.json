@@ -1,0 +1,23 @@
+[
+    {
+      "question": "What is useState and how does it work in React?",
+      "answer": "`useState` is a built-in React Hook that allows us to add state to functional components. When we call `useState(initialValue)`, it returns a pair: the current state value and a function to update it. When we update the state using this function, React automatically re-renders the component to reflect the changes. It helps manage dynamic UI elements such as input fields, toggles, counters, and more."
+    },
+    {
+      "question": "What is the purpose of useEffect in React?",
+      "answer": "`useEffect` is used to handle side effects in React components, such as fetching data, directly manipulating the DOM, or setting up subscriptions or timers. It runs after the component renders and can also re-run when its dependency array changes. It also allows cleanup using a return function to avoid memory leaks."
+    },
+    {
+      "question": "What is a custom hook in React and when should you use one?",
+      "answer": "A custom hook is a JavaScript function that uses one or more React hooks to encapsulate reusable logic. You should use a custom hook when you notice repeating logic across components. It helps make your code cleaner, more modular, and easier to test or maintain."
+    },
+    {
+      "question": "Difference between controlled and uncontrolled components? Which one is better?",
+      "answer": "Controlled components have their form values managed by React state. Input values change via `useState` and `onChange` handlers. Uncontrolled components use refs to access the DOM directly without syncing with state. Controlled components offer better control, validation, and consistency, making them ideal for most cases, especially in larger apps."
+    },
+    {
+      "question": "Tell us something about useFormStatus() ?",
+      "answer": "`useFormStatus()` is a React hook used with React Server Components and the form API in React 18+ (usually with frameworks like Next.js). It gives real-time information about the form submission status, such as whether it is currently pending. This is useful for disabling buttons or showing spinners during a form submission. It helps improve user experience by showing visual feedback during async form submissions."
+    }
+  ]
+  
